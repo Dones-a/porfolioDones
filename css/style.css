@@ -2,15 +2,15 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #253ead 0%, #321a49 100%);
     min-height: 100vh;
     margin: 0;
     padding: 0;
 }
 #matrix{
 
-    width: 100px;
-    height: 100px;
+    width: full;
+    height: full;
     position: absolute;
     top: 0;
     left: 0;
@@ -19,57 +19,12 @@ body {
 
 
 }
-#HTML{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    opacity: 5;
+.imagenes-tecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #000000 0%, #05000a 100%);
+    size:10px;
 }
-#CSS{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    opacity: 5;
-}
-#JS{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    opacity: 5;
-}
-#PHP{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    opacity: 5;
-}
-#SQL{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    opacity: 5;
-}
-#C#{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    opacity: 5;
-}
+
